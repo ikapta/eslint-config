@@ -1,6 +1,5 @@
 module.exports = {
-  extends: ['airbnb', 'airbnb-typescript'],
-
+  extends: ['airbnb', 'airbnb-typescript', 'airbnb/hooks'],
   rules: {
     'max-len': [
       'error',
@@ -33,7 +32,7 @@ module.exports = {
     'function-paren-newline': 'off',
     'react/jsx-curly-newline': 'off',
     'no-unused-expressions': 'off',
-    'camelcase': 'off',
+    camelcase: 'off',
     'react/jsx-indent': 'off',
     'react/jsx-wrap-multilines': 'off',
     'no-confusing-arrow': 'off',
@@ -70,5 +69,10 @@ module.exports = {
     'jsx-a11y/label-has-for': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
     'jsx-a11y/no-autofocus': 'off',
+    'arrow-body-style': 0,
+    'react/jsx-fragments': 0,
+    'consistent-return': 0,
+    'no-return-assign': 0,
+    'react/react-in-jsx-scope': 0,
   },
 };
