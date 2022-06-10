@@ -1,6 +1,6 @@
 {
   "name": "@kapta/eslint-config-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint-config-ts for Kapta",
   "author": "Kapta",
   "homepage": "",
